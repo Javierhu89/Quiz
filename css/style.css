@@ -1,0 +1,39 @@
+* {
+    background-color: #FFF8DC;
+    text-align: center;
+}
+h1{
+    color: #FFD700;
+    font-size: 55px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+h2{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h3{
+    color: #1E90FF; 
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#resplandor{
+    width: 300px;
+    border: 2px black solid;
+    border-radius: 20px;
+    visibility: hidden;
+}
+#valiente , #asustado{
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button{
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 13px;
+    text-align: left;
+}
