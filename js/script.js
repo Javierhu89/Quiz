@@ -34,10 +34,11 @@ document.getElementById("final").addEventListener("click",function(event){
         if (aciertos == 10){
             alert ("¡¿Cuántas veces lo has intentado para sacarlo?!");
             alert ("Venga no te autoengañes, has mirado en google y lo sabes!");
-            alert ("Está bien, aquí tienes a Tu princesa:");
+            alert ("Está bien, aquí abajo tienes a tu princesa:");
             let princesa = document.createElement("img");
             princesa.setAttribute("src","./img/princess.jpg");
             princesa.setAttribute("id","princesa");
             document.getElementById("_princesa").appendChild(princesa);
         }
+        event.target.submit(); // ¿Se ha enviado algo? No
 });
