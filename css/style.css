@@ -1,6 +1,9 @@
 * {
     background-color: #FFF8DC;
     text-align: center;
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;;
+    margin-left: 0;
+    margin-right: 0;
 }
 h1{
     color: #FFD700;
@@ -18,6 +21,10 @@ h3{
     font-size: 25px;
     margin-bottom: 30px;
 }
+h4{
+    margin-top:0px;
+    padding-top: 25px;
+}
 #resplandor{
     width: 300px;
     border: 2px black solid;
@@ -32,7 +39,70 @@ h3{
 button{
     font-size: 15px;
 }
-
+form {
+    display: flex;
+    flex-direction: column;
+}
+.preguntas{
+    background-color:  #FFD700;
+    font-size: 23px;
+    margin-top:0;
+    margin-bottom: 0;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.opcion1{
+    background-color: #06d6a0;
+    color: white;
+    font-size: 18px;
+}
+.respuesta1{
+    background-color: #06d6a0;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.opcion2{
+    background-color: #1b9aaa;
+    color: white;
+    font-size: 18px;
+}
+.respuesta2{
+    background-color: #1b9aaa;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.opcion3{
+    background-color: #ef476f;
+    color: white;
+    font-size: 18px;
+}
+.respuesta3{
+    background-color: #ef476f;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.opcion4{
+    background-color: #ffc43d;
+    color: white;
+    font-size: 18px;
+}
+.respuesta4{
+    background-color: #ffc43d;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+#final {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #DCDCDC;
+}
+#princesa{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 footer p {
     font-size: 13px;
     text-align: left;
