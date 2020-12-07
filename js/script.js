@@ -39,6 +39,8 @@ document.getElementById("final").addEventListener("click",function(event){
             princesa.setAttribute("src","./img/princess.jpg");
             princesa.setAttribute("id","princesa");
             document.getElementById("_princesa").appendChild(princesa);
+            document.getElementById("final").style.visibility = "hidden"; 
+            document.getElementById("final").style.margin = "0px"; 
         }
         event.target.submit(); // ¿Se ha enviado algo? No
 });
