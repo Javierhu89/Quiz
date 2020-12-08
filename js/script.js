@@ -21,13 +21,13 @@ document.getElementById("final").addEventListener("click",function(event){
                     {
                     answers[i].parentElement.style.backgroundColor = "#228B22";
                     answers[i].parentElement.style.border = "solid black 3px";
-                    answers[i].parentElement.style.padding = "16px 0px 16px 0px";
+                    answers[i].parentElement.style.padding = "16.8px 0px 16.8px 0px";
                     fondos[i].style.backgroundColor = "#228B22";
                     aciertos++;
                     }else{
                         answers[i].parentElement.style.backgroundColor = "#B22222";
                         answers[i].parentElement.style.border = "solid black 3px";
-                        answers[i].parentElement.style.padding = "16px 0px 16px 0px";
+                        answers[i].parentElement.style.padding = "16.8px 0px 16.8px 0px";
                         fondos[i].style.backgroundColor = "#B22222";
                     } j++;
                 }
