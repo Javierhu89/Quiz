@@ -20,12 +20,12 @@ document.getElementById("final").addEventListener("click",function(event){
                     if (respuestas[j] == answers[i].value)
                     {
                     answers[i].parentElement.style.backgroundColor = "#228B22";
-                    answers[i].parentElement.style.border = "solid black";
+                    answers[i].parentElement.style.border = "solid black 4px";
                     fondos[i].style.backgroundColor = "#228B22";
                     aciertos++;
                     }else{
                         answers[i].parentElement.style.backgroundColor = "#B22222";
-                        answers[i].parentElement.style.border = "solid black";
+                        answers[i].parentElement.style.border = "solid black 4px";
                         fondos[i].style.backgroundColor = "#B22222";
                     } j++;
                 }
