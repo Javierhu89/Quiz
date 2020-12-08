@@ -33,7 +33,7 @@ document.getElementById("final").addEventListener("click",function(event){
         }
         if (aciertos == 10){
             alert ("¡¿Cuántas veces lo has intentado para sacarlo?!");
-            alert ("Venga no te autoengañes, has mirado en google y lo sabes!");
+            alert ("Venga no te autoengañes, has mirado en Google y lo sabes!");
             alert ("Está bien, aquí abajo tienes a tu princesa:");
             let princesa = document.createElement("img");
             princesa.setAttribute("src","./img/princess.jpg");
@@ -41,6 +41,6 @@ document.getElementById("final").addEventListener("click",function(event){
             document.getElementById("_princesa").appendChild(princesa);
             document.getElementById("final").style.visibility = "hidden"; 
             document.getElementById("final").style.margin = "0px"; 
+            event.target.submit(); // ¿Se ha enviado algo?
         }
-        event.target.submit(); // ¿Se ha enviado algo? No
 });
